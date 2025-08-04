@@ -11,7 +11,7 @@
                            readonly="state in ('approve','reject','cancel')"/>
                     <field name="end_date" widget="date" class="d-block"
                            readonly="state in ('approve','reject','cancel')"/>
-                    <field name="total_price" readonly="state in ('approve','reject','cancel')"/>
+                      <field name="total_price" readonly="state in ('approve','reject','cancel')" sum="total" class="fw-bolder ms-auto flex-shrink-0" type="measure"/>
                     <field name="state" widget="badge"
                            decoration-success="state == 'approve'"
                            decoration-info="state == 'to be approved'"
