@@ -1,0 +1,15 @@
+<odoo>
+    <data>
+        <record id="action_purchase_request_list" model="ir.actions.act_window">
+            <field name="name">Purchase Requests</field>
+            <field name="res_model">purchase.requests</field>
+            <field name="view_mode">list,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create your first purchase request
+                </p>
+            </field>
+        </record>
+
+    </data>
+</odoo>
